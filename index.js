@@ -199,7 +199,8 @@ export default class Openpay extends Component {
                 />                
                 <WebView
                     source={{uri: uri}}   
-                    injectedJavaScript={injectedJavaScript}                        
+                    injectedJavaScript={injectedJavaScript}
+                    javaScriptEnabled={true}                   
                 /> 
             </View>                                
         );
